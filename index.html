@@ -604,41 +604,6 @@
 <script>
   //get values
 
-$(document).ready(function(e){
-  
-  $("#contactForm").on("submit", function(e) {
-    e.preventDefault();
-    let name = $("#name").val();
-    let phone = $("#phone").val();
-    let email = $("#email").val();
-    let message = $("#message").val();
-
-
-    $.ajax({
-      url: "action.php",
-      method: "POST",
-      data:  {
-        name: name,
-        email: email, 
-        phone: email,
-        message: message
-      },
-   
-     
-      success: function (data){
-
-       
-          $("#alert_message").html(data);
-      },
-      error: function(){
-        alert("Error");
-      }
-    })
-  });
-})
-
-
-
 </script>
 </body>
 
