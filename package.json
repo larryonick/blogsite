@@ -1,0 +1,16 @@
+{
+    "name": "wasiu",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "deploy": "gh-pages -d dist"
+    },
+    "homepage": "https://larryonick.github.io/blogsite",
+    "keywords": [],
+    "author": "Lanre Fasuyi",
+    "license": "ISC",
+    "dependencies": {
+        "gh-pages": "^2.1.1"
+    }
+}
